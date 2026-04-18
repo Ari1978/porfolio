@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* 🔥 tamaño base */
+  font-size: 13px; /* probá 12px si lo querés más chico */
 }
 
 @theme inline {
@@ -22,5 +25,16 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
+  /* 🔥 CLAVE */
+  font-family: var(--font-sans);
+  line-height: 1.3;
+}
+
+html {
+  font-size: 13px !important;
+}
+
+body {
+  line-height: 1.3;
 }
