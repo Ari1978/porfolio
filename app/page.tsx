@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white px-6 py-10 flex justify-center">
-      <div className="max-w-4xl w-full space-y-12">
+      <div className="max-w-6xl w-full space-y-12">
 
         {/* HERO */}
         <section>
@@ -32,7 +32,7 @@ export default function Home() {
         <section>
           <h2 className="text-2xl font-semibold mb-6">Proyectos</h2>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
             {/* CARD 1 */}
             <div className="bg-gray-900 p-5 rounded-lg shadow-md transition transform hover:scale-[1.02] hover:bg-gray-800">
@@ -95,6 +95,37 @@ export default function Home() {
               <div className="mt-4">
                 <a
                   href="https://github.com/Ari1978/motorbike.git"
+                  className="bg-blue-600 px-3 py-1 rounded text-sm hover:bg-blue-500"
+                >
+                  Ver proyecto
+                </a>
+              </div>
+            </div>
+            {/* CARD 3 */}
+            <div className="bg-gray-900 p-5 rounded-lg shadow-md transition transform hover:scale-[1.02] hover:bg-gray-800">
+              <h3 className="text-xl font-semibold">ASMEL Bridge (Access Integration)</h3>
+
+              <p className="text-gray-400 mt-3">
+                Servicio intermedio que conecta el sistema ASMEL con Microsoft Access,
+                permitiendo exportar empresas y facturas hacia un sistema legacy mediante ODBC.
+
+                Diseñado para garantizar integridad de datos y evitar duplicaciones en procesos críticos.
+              </p>
+
+              <ul className="text-sm text-gray-500 mt-3 list-disc list-inside">
+                <li>Integración Node.js ↔ Access vía ODBC</li>
+                <li>Sincronización manual controlada</li>
+                <li>Prevención de duplicados (idempotencia)</li>
+                <li>Arquitectura desacoplada tipo bridge</li>
+              </ul>
+
+              <p className="text-xs text-gray-500 mt-3">
+                Node.js · Express · ODBC · Access
+              </p>
+
+              <div className="mt-4">
+                <a
+                  href="https://github.com/Ari1978/asmel-bridge"
                   className="bg-blue-600 px-3 py-1 rounded text-sm hover:bg-blue-500"
                 >
                   Ver proyecto

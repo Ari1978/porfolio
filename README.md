@@ -1,37 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfolio - Ariel Suarez
 
-## Getting Started
+## 👨‍💻 Sobre mí
 
-First, run the development server:
+Desarrollador Full Stack con especialización en Backend, enfocado en el diseño de APIs robustas y sistemas con lógica de negocio compleja.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Experiencia en desarrollo de motores de facturación, gestión de consumos y reglas comerciales, incluyendo integración con sistemas externos (Access mediante ODBC).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Me destaco por el pensamiento analítico, la resolución de problemas y la capacidad de llevar soluciones desde la idea hasta producción.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tecnologías
 
-## Learn More
+* Node.js
+* NestJS
+* MongoDB
+* Next.js
+* React
+* Firebase
+* ODBC (integración con Access)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Proyectos destacados
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🧾 Sistema de Facturación
 
-## Deploy on Vercel
+Sistema completo de gestión y facturación empresarial desarrollado desde cero, con motor propio basado en reglas de negocio.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Características:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# porfolio
+* Cálculo de IVA, consumos y bonificaciones
+* Gestión de planes y servicios
+* Generación automática de facturas
+* Backend escalable con NestJS
+* Frontend en Next.js
+
+🔗 Backend:
+https://github.com/Ari1978/app_medicina_backend
+
+🔗 Frontend:
+https://github.com/Ari1978/app_medicina_frontend
+
+---
+
+### 🔌 ASMEL Bridge (Access Integration)
+
+Servicio intermedio que conecta un sistema moderno con Microsoft Access mediante ODBC.
+
+**Características:**
+
+* Exportación de empresas y facturas
+* Prevención de duplicados (idempotencia)
+* Sincronización manual controlada
+* Arquitectura desacoplada
+
+🔗 Repositorio:
+https://github.com/Ari1978/asmel-bridge
+
+---
+
+### 🏍️ Motorbike App
+
+Aplicación web con operaciones CRUD completas y persistencia en Firebase.
+
+**Características:**
+
+* Gestión de datos
+* Interfaz responsive
+* Arquitectura modular
+
+🔗 Repositorio:
+https://github.com/Ari1978/motorbike
+
+---
+
+## 🌐 Demo
+
+👉 (Agregar link cuando lo subas a Vercel)
+
+---
+
+## 📬 Contacto
+
+* Email: [arielsuarez538@gmail.com](mailto:arielsuarez538@gmail.com)
+* GitHub: https://github.com/Ari1978
+* LinkedIn: https://linkedin.com/in/ariel-suarez-39141111b
+
+---
+
+## 🎯 Objetivo
+
+Busco oportunidades como Backend Developer donde pueda aportar valor en sistemas reales, seguir creciendo profesionalmente y trabajar en proyectos desafiantes.
+
+---
